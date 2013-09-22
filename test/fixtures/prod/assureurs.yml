@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  raionSociale: MyString
+  numeroIf: MyString
+  numeroRc: MyString
+  patente: MyString
+  codeDaps: MyString
+  adresse: MyText
+  codePostal: 1
+  telPortable: MyString
+  telFix: MyString
+  logo: MyString
+
+two:
+  raionSociale: MyString
+  numeroIf: MyString
+  numeroRc: MyString
+  patente: MyString
+  codeDaps: MyString
+  adresse: MyText
+  codePostal: 1
+  telPortable: MyString
+  telFix: MyString
+  logo: MyString

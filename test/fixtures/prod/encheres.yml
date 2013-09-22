@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  dateDebut: 2013-09-22
+  duree: 1
+  titre: MyString
+  dateEffetContrat: 2013-09-22
+  dateFin: 2013-09-22
+  prixDemande: 9.99
+  cotationActuelle: 9.99
+  dernierPrix: 1
+  dernierEncherisseur_id: 1
+  encherisseurGagnant_id: 1
+
+two:
+  dateDebut: 2013-09-22
+  duree: 1
+  titre: MyString
+  dateEffetContrat: 2013-09-22
+  dateFin: 2013-09-22
+  prixDemande: 9.99
+  cotationActuelle: 9.99
+  dernierPrix: 1
+  dernierEncherisseur_id: 1
+  encherisseurGagnant_id: 1

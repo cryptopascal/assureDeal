@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  libelle: MyString
+  code: MyString
+  active: false
+
+two:
+  libelle: MyString
+  code: MyString
+  active: false

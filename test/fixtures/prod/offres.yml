@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  assureur_id: 1
+  enchere_id: 1
+  date: 2013-09-22
+  prix: 9.99
+  meilleur: false
+
+two:
+  assureur_id: 1
+  enchere_id: 1
+  date: 2013-09-22
+  prix: 9.99
+  meilleur: false

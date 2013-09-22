@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  pays_is: 1
+  libelle: MyString
+  code: MyString
+  active: false
+
+two:
+  pays_is: 1
+  libelle: MyString
+  code: MyString
+  active: false
