@@ -1,0 +1,45 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  puissance: 1
+  nombrePlacesVehicule: 1
+  valeufNeuf: 9.99
+  valeurVenale: 9.99
+  modelVehicule: MyString
+  nombreConducteurs: 1
+  carburant: MyString
+  dateMiseCirculation: 2013-09-23
+  nouveauVehicule: false
+  flagVol: false
+  flagIncendie: false
+  flagRC: false
+  flagTierce: false
+  flagDC: false
+  flagPF: false
+  flagInondation: false
+  flagBG: false
+  flagPTA: false
+  flagProtectionConducteur: false
+  marque_id: 1
+
+two:
+  puissance: 1
+  nombrePlacesVehicule: 1
+  valeufNeuf: 9.99
+  valeurVenale: 9.99
+  modelVehicule: MyString
+  nombreConducteurs: 1
+  carburant: MyString
+  dateMiseCirculation: 2013-09-23
+  nouveauVehicule: false
+  flagVol: false
+  flagIncendie: false
+  flagRC: false
+  flagTierce: false
+  flagDC: false
+  flagPF: false
+  flagInondation: false
+  flagBG: false
+  flagPTA: false
+  flagProtectionConducteur: false
+  marque_id: 1

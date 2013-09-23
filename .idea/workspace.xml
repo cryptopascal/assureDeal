@@ -8,7 +8,13 @@
     <file path="/ville.rb" changelist="dde71ab5-9d30-457b-9f34-78b62f074b39" time="1379877237890" ignored="false" />
     <file path="/offre.rb" changelist="dde71ab5-9d30-457b-9f34-78b62f074b39" time="1379881250968" ignored="false" />
     <file path="/assureur.rb" changelist="dde71ab5-9d30-457b-9f34-78b62f074b39" time="1379881432265" ignored="false" />
-    <file path="/enchere.rb" changelist="dde71ab5-9d30-457b-9f34-78b62f074b39" time="1379881330312" ignored="false" />
+    <file path="/enchere.rb" changelist="dde71ab5-9d30-457b-9f34-78b62f074b39" time="1379969595343" ignored="false" />
+    <file path="/20130923195637_create_prod_automobiles.rb" changelist="dde71ab5-9d30-457b-9f34-78b62f074b39" time="1379966257671" ignored="false" />
+    <file path="/20130923195859_create_prod_automobiles.rb" changelist="dde71ab5-9d30-457b-9f34-78b62f074b39" time="1379966368640" ignored="false" />
+    <file path="/20130923194613_create_prod_conducteurs.rb" changelist="dde71ab5-9d30-457b-9f34-78b62f074b39" time="1379966405750" ignored="false" />
+    <file path="/conducteur.rb" changelist="dde71ab5-9d30-457b-9f34-78b62f074b39" time="1379968175234" ignored="false" />
+    <file path="/automobile.rb" changelist="dde71ab5-9d30-457b-9f34-78b62f074b39" time="1379967883281" ignored="false" />
+    <file path="/client.rb" changelist="dde71ab5-9d30-457b-9f34-78b62f074b39" time="1379968372890" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,19 +34,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="20130922182201_create_ref_periode_rappels.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130922182201_create_ref_periode_rappels.rb">
+      <file leaf-file-name="automobile.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/prod/automobile.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="37" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+            <state line="2" column="18" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="assureur.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="assureur.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/prod/assureur.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="26" selection-start="301" selection-end="301" vertical-scroll-proportion="0.11805555">
+            <state line="3" column="49" selection-start="129" selection-end="149" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -55,10 +61,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="enchere.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="client.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/prod/client.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="116" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="enchere.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/prod/enchere.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="33" selection-start="213" selection-end="232" vertical-scroll-proportion="0.0">
+            <state line="11" column="98" selection-start="773" selection-end="773" vertical-scroll-proportion="0.329806">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20130922195751_create_prod_encheres.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130922195751_create_prod_encheres.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="39" selection-start="374" selection-end="396" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20130923204221_add_index_for_encherisseur_to_prod_encheres.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130923204221_add_index_for_encherisseur_to_prod_encheres.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="53" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20130923203941_add_client_id_to_prod_encheres.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130923203941_add_client_id_to_prod_encheres.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="4" selection-start="127" selection-end="163" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conducteur.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/prod/conducteur.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="137" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -74,29 +125,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/app/models/ref/ville.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130922182316_create_ref_villes.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130922182306_create_ref_pays.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130922182256_create_ref_type_logements.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130922182243_create_ref_type_residences.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130922182233_create_ref_relation_biens.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130922182211_create_ref_type_prise_contacts.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130922182201_create_ref_periode_rappels.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130922182139_create_ref_marques.rb" />
         <option value="$PROJECT_DIR$/app/models/prod/offre.rb" />
         <option value="$PROJECT_DIR$/app/models/prod/assureur.rb" />
-        <option value="$PROJECT_DIR$/app/models/prod/enchere.rb" />
         <option value="$PROJECT_DIR$/generate_models.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130923195637_create_prod_automobiles.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130923194613_create_prod_conducteurs.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130923195859_create_prod_automobiles.rb" />
+        <option value="$PROJECT_DIR$/app/models/prod/automobile.rb" />
+        <option value="$PROJECT_DIR$/test/fixtures/prod/automobiles.yml" />
+        <option value="$PROJECT_DIR$/app/models/prod/conducteur.rb" />
+        <option value="$PROJECT_DIR$/app/models/prod/client.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130923204221_add_index_for_encherisseur_to_prod_encheres.rb" />
+        <option value="$PROJECT_DIR$/app/models/prod/enchere.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1288" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -124,8 +176,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -140,7 +192,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assureDeal" />
+              <option name="myItemId" value="assurDeal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -150,7 +202,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assureDeal" />
+              <option name="myItemId" value="assurDeal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assurDeal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assurDeal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assurDeal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assurDeal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -164,7 +248,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assureDeal" />
+              <option name="myItemId" value="assurDeal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -182,7 +266,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assureDeal" />
+              <option name="myItemId" value="assurDeal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -204,7 +288,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assureDeal" />
+              <option name="myItemId" value="assurDeal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -439,19 +523,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <frame x="-4" y="-4" width="1288" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2760098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28038898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -522,80 +606,44 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130922182222_create_ref_localisation_etages.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130922182201_create_ref_periode_rappels.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="37" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/prod/assureurs.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/ref.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130923195859_create_prod_automobiles.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/ref/ville.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="45" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/ref/pays.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130922182316_create_ref_villes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="173" selection-end="204" vertical-scroll-proportion="0.18681319">
+        <state line="14" column="23" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130922182306_create_ref_pays.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/prod.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="37" selection-start="175" selection-end="175" vertical-scroll-proportion="0.15567766">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130922182256_create_ref_type_logements.rb">
+    <entry file="file://$PROJECT_DIR$/test/fixtures/prod/automobiles.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="37" selection-start="173" selection-end="173" vertical-scroll-proportion="0.119929455">
+        <state line="14" column="15" selection-start="358" selection-end="358" vertical-scroll-proportion="0.41975307">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130922182243_create_ref_type_residences.rb">
+    <entry file="file://$PROJECT_DIR$/test/unit/prod/automobile_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="37" selection-start="175" selection-end="175" vertical-scroll-proportion="0.119929455">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130922182233_create_ref_relation_biens.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="37" selection-start="173" selection-end="173" vertical-scroll-proportion="0.119929455">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130922182211_create_ref_type_prise_contacts.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="37" selection-start="182" selection-end="182" vertical-scroll-proportion="0.11564626">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130922182139_create_ref_marques.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="37" selection-start="160" selection-end="160" vertical-scroll-proportion="0.11564626">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130922182201_create_ref_periode_rappels.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="37" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -607,23 +655,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generate_models.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/prod/conducteur.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="1330" selection-end="1330" vertical-scroll-proportion="0.0">
+        <state line="3" column="137" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/prod/enchere.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130923203941_add_client_id_to_prod_encheres.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="213" selection-end="232" vertical-scroll-proportion="0.0">
+        <state line="3" column="4" selection-start="127" selection-end="163" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130922195751_create_prod_encheres.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="39" selection-start="374" selection-end="396" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/prod/client.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="116" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/prod/assureur.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="301" selection-end="301" vertical-scroll-proportion="0.11805555">
+        <state line="3" column="49" selection-start="129" selection-end="149" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/prod/automobile.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="18" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130923204221_add_index_for_encherisseur_to_prod_encheres.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="53" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://RailsDependency/#assurDeal">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>RailsDependency</ID>
+          <OriginalElement>#assurDeal</OriginalElement>
+          <nodes>
+            <node x="" y="">Ref::Pays</node>
+            <node x="" y="">Prod::Offre</node>
+            <node x="" y="">Prod::Assureur</node>
+            <node x="" y="">Prod::Enchere</node>
+            <node x="" y="">Ref::TypeResidence</node>
+            <node x="" y="">Ref::SinistraliteConducteur</node>
+            <node x="" y="">Ref::Ville</node>
+            <node x="" y="">Ref::LocalisationEtage</node>
+            <node x="" y="">Ref::RelationBien</node>
+            <node x="" y="">Prod::Client</node>
+            <node x="" y="">Prod::Conducteur</node>
+            <node x="" y="">Ref::PeriodeRappel</node>
+            <node x="" y="">Ref::TypeLogement</node>
+            <node x="" y="">Prod::Automobile</node>
+            <node x="" y="">Ref::Marque</node>
+            <node x="" y="">Ref::TypePriseContact</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6728546409807356" x="852.8750650702759" y="499.396248096092" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Association fields</Category>
+            <Category>Migration fields</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/prod/enchere.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="98" selection-start="773" selection-end="773" vertical-scroll-proportion="0.329806">
           <folding />
         </state>
       </provider>

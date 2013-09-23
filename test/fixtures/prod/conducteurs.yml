@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  sexe: 1
+  dateObtentionPermis: 2013-09-23
+  dateNaissance: 2013-09-23
+  relation: 1
+  typeConducteur: 1
+  automobile_id: 1
+  sinistralite_id: 1
+
+two:
+  sexe: 1
+  dateObtentionPermis: 2013-09-23
+  dateNaissance: 2013-09-23
+  relation: 1
+  typeConducteur: 1
+  automobile_id: 1
+  sinistralite_id: 1
