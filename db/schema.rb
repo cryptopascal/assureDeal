@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130923205046) do
+ActiveRecord::Schema.define(:version => 20130923215346) do
 
   create_table "prod_assureurs", :force => true do |t|
     t.string   "raionSociale"
@@ -96,12 +96,15 @@ ActiveRecord::Schema.define(:version => 20130923205046) do
     t.integer  "client_id"
     t.integer  "periode_rappel_id"
     t.integer  "type_prise_contact_id"
+    t.integer  "produit_id"
+    t.string   "produit_type"
   end
 
   add_index "prod_encheres", ["client_id"], :name => "index_prod_encheres_on_client_id"
   add_index "prod_encheres", ["dernierEncherisseur_id"], :name => "index_prod_encheres_on_dernierEncherisseur_id"
   add_index "prod_encheres", ["encherisseurGagnant_id"], :name => "index_prod_encheres_on_encherisseurGagnant_id"
   add_index "prod_encheres", ["periode_rappel_id"], :name => "index_prod_encheres_on_periode_rappel_id"
+  add_index "prod_encheres", ["produit_id"], :name => "index_prod_encheres_on_produit_id"
   add_index "prod_encheres", ["type_prise_contact_id"], :name => "index_prod_encheres_on_type_prise_contact_id"
 
   create_table "prod_offres", :force => true do |t|

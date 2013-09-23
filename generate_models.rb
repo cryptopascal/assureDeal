@@ -16,5 +16,16 @@ rails g model prod/Offre assureur_id:integer enchere_id:integer date:date prix:d
 
 
 rails g model prod/Automobile puissance:integer nombrePlacesVehicule:integer valeufNeuf:decimal valeurVenale:decimal modelVehicule:string nombreConducteurs:integer carburant:string dateMiseCirculation:date nouveauVehicule:boolean flagVol:boolean flagIncendie:boolean flagRC:boolean FlagRC:boolean flagTierce:boolean flagDC:boolean flagPF:boolean flagInondation:boolean flagBG:boolean flagPTA:boolean flagProtectionConducteur:boolean marque_id:integer
-rails g model prod/Conducteur sexe:integer dateObtentionPermis:date dateNaissance:date relation:integer typeConducteur:integer automobile_id:integer
+rails g model prod/Conducteur sexe:integer dateObtentionPermis:date dateNaissance:date relation:integer typeConducteur:integer automobile_id:integer sinistralite_id:integer
+
+belongs_to :automobile, :foreign_key => :automobile_id
+ 
+ 
+ rails generate migration AddClientIdToProdEncheres client_id:integer:index
+ 
+ rails generate migration AddPeriodeRappelIdToProdEncheres periode_rappel_id:integer:index
+ rails generate migration AddTypePriseContactIdToProdEncheres type_prise_contact_id:integer:index
+ 
+ rails generate migration AddProduitIdToProdEncheres produit_id:integer:index
+ rails generate migration AddProduitTypeToProdEncheres produit_type:string
  

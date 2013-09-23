@@ -1,5 +1,6 @@
 class Prod::Enchere < ActiveRecord::Base
   has_many :offres
+  belongs_to :produit, polymorphic: true
   has_many :assureurs, through: :offres
   belongs_to :client
   belongs_to :periode_rappel
@@ -9,5 +10,5 @@ class Prod::Enchere < ActiveRecord::Base
   attr_accessible :cotationActuelle, :dateDebut, :dateEffetContrat, :dateFin, :dernierEncherisseur_id,
                   :dernierPrix, :duree, :encherisseurGagnant_id, :prixDemande, :titre, :offres,
                   :assureurs, :dernierEncherisseur, :encherisseurGagnant, :client_id, :client,
-                  :periode_rappel, :type_prise_contact, :type_prise_contact_id, :periode_rappel_id
+                  :periode_rappel, :type_prise_contact, :type_prise_contact_id, :periode_rappel_id,, :produit, :produit_id, :produit_type
 end
