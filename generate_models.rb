@@ -14,3 +14,6 @@ rails g model prod/Assureur raionSociale:string numeroIf:string numeroRc:string 
 rails g model prod/Enchere dateDebut:date duree:integer titre:string dateEffetContrat:date dateFin:date prixDemande:decimal cotationActuelle:decimal dernierPrix:integer  dernierEncherisseur_id:integer encherisseurGagnant_id:integer
 rails g model prod/Offre assureur_id:integer enchere_id:integer date:date prix:decimal meilleur:boolean
 
+
+rails g model prod/Automobile puissance:integer nombrePlacesVehicule:integer valeufNeuf:decimal 
+valeurVenale:integer modelVehicule:string nombreConducteurs:string 
