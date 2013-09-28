@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class Ref::LocalisationEtageTest < ActiveSupport::TestCase
+class LocalisationEtageTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

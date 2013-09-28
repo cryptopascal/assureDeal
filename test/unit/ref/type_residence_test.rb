@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class Ref::TypeResidenceTest < ActiveSupport::TestCase
+class TypeResidenceTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

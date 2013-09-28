@@ -1,4 +1,4 @@
-class Prod::Enchere < ActiveRecord::Base
+class Enchere < ActiveRecord::Base
   has_many :offres
   belongs_to :produit, polymorphic: true
   has_many :assureurs, through: :offres

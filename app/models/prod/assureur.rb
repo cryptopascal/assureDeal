@@ -1,4 +1,4 @@
-class Prod::Assureur < ActiveRecord::Base
+class Assureur < ActiveRecord::Base
   has_many :offres
   has_many :encheres, through: :offres
   has_many :encheresGagnees, class_name:"Enchere"

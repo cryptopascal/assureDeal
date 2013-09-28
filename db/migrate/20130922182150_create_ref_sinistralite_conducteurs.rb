@@ -1,6 +1,6 @@
 class CreateRefSinistraliteConducteurs < ActiveRecord::Migration
   def change
-    create_table :ref_sinistralite_conducteurs do |t|
+    create_table :sinistralite_conducteurs do |t|
       t.string :libelle
       t.boolean :active
 

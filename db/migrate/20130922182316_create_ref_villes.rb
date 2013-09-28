@@ -1,6 +1,6 @@
 class CreateRefVilles < ActiveRecord::Migration
   def change
-    create_table :ref_villes do |t|
+    create_table :villes do |t|
       t.integer :pays_id
       t.string :libelle
       t.string :code
@@ -8,6 +8,6 @@ class CreateRefVilles < ActiveRecord::Migration
 
       t.timestamps
     end
-    add_index :ref_villes, :pays_id
+    add_index :villes, :pays_id
   end
 end

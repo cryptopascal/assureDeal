@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(:version => 20130923215346) do
 
-  create_table "prod_assureurs", :force => true do |t|
+  create_table "assureurs", :force => true do |t|
     t.string   "raionSociale"
     t.string   "numeroIf"
     t.string   "numeroRc"
@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(:version => 20130923215346) do
     t.datetime "updated_at",   :null => false
   end
 
-  create_table "prod_automobiles", :force => true do |t|
+  create_table "automobiles", :force => true do |t|
     t.integer  "puissance"
     t.integer  "nombrePlacesVehicule"
     t.decimal  "valeufNeuf"
@@ -53,9 +53,9 @@ ActiveRecord::Schema.define(:version => 20130923215346) do
     t.datetime "updated_at",               :null => false
   end
 
-  add_index "prod_automobiles", ["marque_id"], :name => "index_prod_automobiles_on_marque_id"
+  add_index "automobiles", ["marque_id"], :name => "index_automobiles_on_marque_id"
 
-  create_table "prod_clients", :force => true do |t|
+  create_table "clients", :force => true do |t|
     t.string   "nom"
     t.string   "prenom"
     t.date     "dateNaissance"
@@ -68,7 +68,7 @@ ActiveRecord::Schema.define(:version => 20130923215346) do
     t.datetime "updated_at",    :null => false
   end
 
-  create_table "prod_conducteurs", :force => true do |t|
+  create_table "conducteurs", :force => true do |t|
     t.integer  "sexe"
     t.date     "dateObtentionPermis"
     t.date     "dateNaissance"
@@ -80,7 +80,7 @@ ActiveRecord::Schema.define(:version => 20130923215346) do
     t.datetime "updated_at",          :null => false
   end
 
-  create_table "prod_encheres", :force => true do |t|
+  create_table "encheres", :force => true do |t|
     t.date     "dateDebut"
     t.integer  "duree"
     t.string   "titre"
@@ -100,14 +100,28 @@ ActiveRecord::Schema.define(:version => 20130923215346) do
     t.string   "produit_type"
   end
 
-  add_index "prod_encheres", ["client_id"], :name => "index_prod_encheres_on_client_id"
-  add_index "prod_encheres", ["dernierEncherisseur_id"], :name => "index_prod_encheres_on_dernierEncherisseur_id"
-  add_index "prod_encheres", ["encherisseurGagnant_id"], :name => "index_prod_encheres_on_encherisseurGagnant_id"
-  add_index "prod_encheres", ["periode_rappel_id"], :name => "index_prod_encheres_on_periode_rappel_id"
-  add_index "prod_encheres", ["produit_id"], :name => "index_prod_encheres_on_produit_id"
-  add_index "prod_encheres", ["type_prise_contact_id"], :name => "index_prod_encheres_on_type_prise_contact_id"
+  add_index "encheres", ["client_id"], :name => "index_encheres_on_client_id"
+  add_index "encheres", ["dernierEncherisseur_id"], :name => "index_encheres_on_dernierEncherisseur_id"
+  add_index "encheres", ["encherisseurGagnant_id"], :name => "index_encheres_on_encherisseurGagnant_id"
+  add_index "encheres", ["periode_rappel_id"], :name => "index_encheres_on_periode_rappel_id"
+  add_index "encheres", ["produit_id"], :name => "index_encheres_on_produit_id"
+  add_index "encheres", ["type_prise_contact_id"], :name => "index_encheres_on_type_prise_contact_id"
 
-  create_table "prod_offres", :force => true do |t|
+  create_table "localisation_etages", :force => true do |t|
+    t.string   "libelle"
+    t.boolean  "active"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "marques", :force => true do |t|
+    t.string   "libelle"
+    t.boolean  "active",     :default => true
+    t.datetime "created_at",                   :null => false
+    t.datetime "updated_at",                   :null => false
+  end
+
+  create_table "offres", :force => true do |t|
     t.integer  "assureur_id"
     t.integer  "enchere_id"
     t.date     "date"
@@ -117,21 +131,7 @@ ActiveRecord::Schema.define(:version => 20130923215346) do
     t.datetime "updated_at",  :null => false
   end
 
-  create_table "ref_localisation_etages", :force => true do |t|
-    t.string   "libelle"
-    t.boolean  "active"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  create_table "ref_marques", :force => true do |t|
-    t.string   "libelle"
-    t.boolean  "active",     :default => true
-    t.datetime "created_at",                   :null => false
-    t.datetime "updated_at",                   :null => false
-  end
-
-  create_table "ref_pays", :force => true do |t|
+  create_table "pays", :force => true do |t|
     t.string   "libelle"
     t.string   "code"
     t.boolean  "active",     :default => true
@@ -139,49 +139,49 @@ ActiveRecord::Schema.define(:version => 20130923215346) do
     t.datetime "updated_at",                   :null => false
   end
 
-  create_table "ref_periode_rappels", :force => true do |t|
+  create_table "periode_rappels", :force => true do |t|
     t.string   "libelle"
     t.boolean  "active",     :default => true
     t.datetime "created_at",                   :null => false
     t.datetime "updated_at",                   :null => false
   end
 
-  create_table "ref_relation_biens", :force => true do |t|
+  create_table "relation_biens", :force => true do |t|
     t.string   "libelle"
     t.boolean  "active",     :default => true
     t.datetime "created_at",                   :null => false
     t.datetime "updated_at",                   :null => false
   end
 
-  create_table "ref_sinistralite_conducteurs", :force => true do |t|
+  create_table "sinistralite_conducteurs", :force => true do |t|
     t.string   "libelle"
     t.boolean  "active"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
 
-  create_table "ref_type_logements", :force => true do |t|
+  create_table "type_logements", :force => true do |t|
     t.string   "libelle"
     t.boolean  "active",     :default => true
     t.datetime "created_at",                   :null => false
     t.datetime "updated_at",                   :null => false
   end
 
-  create_table "ref_type_prise_contacts", :force => true do |t|
+  create_table "type_prise_contacts", :force => true do |t|
     t.string   "libelle"
     t.boolean  "active",     :default => true
     t.datetime "created_at",                   :null => false
     t.datetime "updated_at",                   :null => false
   end
 
-  create_table "ref_type_residences", :force => true do |t|
+  create_table "type_residences", :force => true do |t|
     t.string   "libelle"
     t.boolean  "active",     :default => true
     t.datetime "created_at",                   :null => false
     t.datetime "updated_at",                   :null => false
   end
 
-  create_table "ref_villes", :force => true do |t|
+  create_table "villes", :force => true do |t|
     t.integer  "pays_id"
     t.string   "libelle"
     t.string   "code"
@@ -190,6 +190,6 @@ ActiveRecord::Schema.define(:version => 20130923215346) do
     t.datetime "updated_at",                   :null => false
   end
 
-  add_index "ref_villes", ["pays_id"], :name => "index_ref_villes_on_pays_id"
+  add_index "villes", ["pays_id"], :name => "index_villes_on_pays_id"
 
 end

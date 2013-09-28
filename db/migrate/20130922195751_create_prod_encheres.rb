@@ -1,6 +1,6 @@
 class CreateProdEncheres < ActiveRecord::Migration
   def change
-    create_table :prod_encheres do |t|
+    create_table :encheres do |t|
       t.date :dateDebut
       t.integer :duree
       t.string :titre

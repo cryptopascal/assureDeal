@@ -1,6 +1,6 @@
 class CreateRefPays < ActiveRecord::Migration
   def change
-    create_table :ref_pays do |t|
+    create_table :pays do |t|
       t.string :libelle
       t.string :code
       t.boolean :active, default:true

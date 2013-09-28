@@ -1,3 +1,3 @@
-class Ref::SinistraliteConducteur < ActiveRecord::Base
+class SinistraliteConducteur < ActiveRecord::Base
   attr_accessible :active, :libelle
 end

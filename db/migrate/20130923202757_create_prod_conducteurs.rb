@@ -1,6 +1,6 @@
 class CreateProdConducteurs < ActiveRecord::Migration
   def change
-    create_table :prod_conducteurs do |t|
+    create_table :conducteurs do |t|
       t.integer :sexe
       t.date :dateObtentionPermis
       t.date :dateNaissance

@@ -1,3 +1,3 @@
-class Ref::PeriodeRappel < ActiveRecord::Base
+class PeriodeRappel < ActiveRecord::Base
   attr_accessible :active, :libelle
 end

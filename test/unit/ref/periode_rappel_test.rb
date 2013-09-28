@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class Ref::PeriodeRappelTest < ActiveSupport::TestCase
+class PeriodeRappelTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

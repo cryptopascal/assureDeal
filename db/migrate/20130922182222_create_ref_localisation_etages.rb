@@ -1,6 +1,6 @@
 class CreateRefLocalisationEtages < ActiveRecord::Migration
   def change
-    create_table :ref_localisation_etages do |t|
+    create_table :localisation_etages do |t|
       t.string :libelle
       t.boolean :active
 

@@ -1,3 +1,3 @@
-class Ref::Marque < ActiveRecord::Base
+class Marque < ActiveRecord::Base
   attr_accessible :active, :libelle
 end

@@ -1,6 +1,6 @@
 class CreateProdAutomobiles < ActiveRecord::Migration
   def change
-    create_table :prod_automobiles do |t|
+    create_table :automobiles do |t|
       t.integer :puissance
       t.integer :nombrePlacesVehicule
       t.decimal :valeufNeuf
@@ -24,6 +24,6 @@ class CreateProdAutomobiles < ActiveRecord::Migration
 
       t.timestamps
     end
-    add_index :prod_automobiles,:marque_id
+    add_index :automobiles,:marque_id
   end
 end

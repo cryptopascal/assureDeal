@@ -1,6 +1,6 @@
 class CreateRefRelationBiens < ActiveRecord::Migration
   def change
-    create_table :ref_relation_biens do |t|
+    create_table :relation_biens do |t|
       t.string :libelle
       t.boolean :active, default:true
 

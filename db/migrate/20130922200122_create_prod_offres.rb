@@ -1,6 +1,6 @@
 class CreateProdOffres < ActiveRecord::Migration
   def change
-    create_table :prod_offres do |t|
+    create_table :offres do |t|
       t.integer :assureur_id
       t.integer :enchere_id
       t.date :date
