@@ -2,70 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dde71ab5-9d30-457b-9f34-78b62f074b39" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/prod.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/ref.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130922182139_create_ref_marques.rb" afterPath="$PROJECT_DIR$/db/migrate/20130922182139_create_ref_marques.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130922182150_create_ref_sinistralite_conducteurs.rb" afterPath="$PROJECT_DIR$/db/migrate/20130922182150_create_ref_sinistralite_conducteurs.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130922182201_create_ref_periode_rappels.rb" afterPath="$PROJECT_DIR$/db/migrate/20130922182201_create_ref_periode_rappels.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130922182211_create_ref_type_prise_contacts.rb" afterPath="$PROJECT_DIR$/db/migrate/20130922182211_create_ref_type_prise_contacts.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130922182222_create_ref_localisation_etages.rb" afterPath="$PROJECT_DIR$/db/migrate/20130922182222_create_ref_localisation_etages.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130922182233_create_ref_relation_biens.rb" afterPath="$PROJECT_DIR$/db/migrate/20130922182233_create_ref_relation_biens.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130922182243_create_ref_type_residences.rb" afterPath="$PROJECT_DIR$/db/migrate/20130922182243_create_ref_type_residences.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130922182256_create_ref_type_logements.rb" afterPath="$PROJECT_DIR$/db/migrate/20130922182256_create_ref_type_logements.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130922182306_create_ref_pays.rb" afterPath="$PROJECT_DIR$/db/migrate/20130922182306_create_ref_pays.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130922182316_create_ref_villes.rb" afterPath="$PROJECT_DIR$/db/migrate/20130922182316_create_ref_villes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130922195725_create_prod_clients.rb" afterPath="$PROJECT_DIR$/db/migrate/20130922195725_create_prod_clients.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130922195740_create_prod_assureurs.rb" afterPath="$PROJECT_DIR$/db/migrate/20130922195740_create_prod_assureurs.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130922195751_create_prod_encheres.rb" afterPath="$PROJECT_DIR$/db/migrate/20130922195751_create_prod_encheres.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130922200122_create_prod_offres.rb" afterPath="$PROJECT_DIR$/db/migrate/20130922200122_create_prod_offres.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130923195859_create_prod_automobiles.rb" afterPath="$PROJECT_DIR$/db/migrate/20130923195859_create_prod_automobiles.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130923202757_create_prod_conducteurs.rb" afterPath="$PROJECT_DIR$/db/migrate/20130923202757_create_prod_conducteurs.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130923203941_add_client_id_to_prod_encheres.rb" afterPath="$PROJECT_DIR$/db/migrate/20130923203941_add_client_id_to_prod_encheres.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130923204221_add_index_for_encherisseur_to_prod_encheres.rb" afterPath="$PROJECT_DIR$/db/migrate/20130923204221_add_index_for_encherisseur_to_prod_encheres.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130923205035_add_periode_rappel_id_to_prod_encheres.rb" afterPath="$PROJECT_DIR$/db/migrate/20130923205035_add_periode_rappel_id_to_prod_encheres.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130923205046_add_type_prise_contact_id_to_prod_encheres.rb" afterPath="$PROJECT_DIR$/db/migrate/20130923205046_add_type_prise_contact_id_to_prod_encheres.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130923215311_add_produit_id_to_prod_encheres.rb" afterPath="$PROJECT_DIR$/db/migrate/20130923215311_add_produit_id_to_prod_encheres.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130923215346_add_produit_type_to_prod_encheres.rb" afterPath="$PROJECT_DIR$/db/migrate/20130923215346_add_produit_type_to_prod_encheres.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/assurDeal.iml" afterPath="$PROJECT_DIR$/.idea/assurDeal.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/prod/assureur.rb" afterPath="$PROJECT_DIR$/app/models/prod/assureur.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/prod/assureur_test.rb" afterPath="$PROJECT_DIR$/test/unit/prod/assureur_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/prod/automobile.rb" afterPath="$PROJECT_DIR$/app/models/prod/automobile.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/prod/automobile_test.rb" afterPath="$PROJECT_DIR$/test/unit/prod/automobile_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/prod/client.rb" afterPath="$PROJECT_DIR$/app/models/prod/client.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/prod/client_test.rb" afterPath="$PROJECT_DIR$/test/unit/prod/client_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/prod/conducteur.rb" afterPath="$PROJECT_DIR$/app/models/prod/conducteur.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/prod/conducteur_test.rb" afterPath="$PROJECT_DIR$/test/unit/prod/conducteur_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/prod/enchere.rb" afterPath="$PROJECT_DIR$/app/models/prod/enchere.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/prod/enchere_test.rb" afterPath="$PROJECT_DIR$/test/unit/prod/enchere_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/ref/localisation_etage.rb" afterPath="$PROJECT_DIR$/app/models/ref/localisation_etage.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/ref/localisation_etage_test.rb" afterPath="$PROJECT_DIR$/test/unit/ref/localisation_etage_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/ref/marque.rb" afterPath="$PROJECT_DIR$/app/models/ref/marque.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/ref/marque_test.rb" afterPath="$PROJECT_DIR$/test/unit/ref/marque_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/prod/offre.rb" afterPath="$PROJECT_DIR$/app/models/prod/offre.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/prod/offre_test.rb" afterPath="$PROJECT_DIR$/test/unit/prod/offre_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/ref/pays.rb" afterPath="$PROJECT_DIR$/app/models/ref/pays.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/ref/pays_test.rb" afterPath="$PROJECT_DIR$/test/unit/ref/pays_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/ref/periode_rappel.rb" afterPath="$PROJECT_DIR$/app/models/ref/periode_rappel.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/ref/periode_rappel_test.rb" afterPath="$PROJECT_DIR$/test/unit/ref/periode_rappel_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/ref/relation_bien.rb" afterPath="$PROJECT_DIR$/app/models/ref/relation_bien.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/ref/relation_bien_test.rb" afterPath="$PROJECT_DIR$/test/unit/ref/relation_bien_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/ref/sinistralite_conducteur.rb" afterPath="$PROJECT_DIR$/app/models/ref/sinistralite_conducteur.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/ref/sinistralite_conducteur_test.rb" afterPath="$PROJECT_DIR$/test/unit/ref/sinistralite_conducteur_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/ref/type_logement.rb" afterPath="$PROJECT_DIR$/app/models/ref/type_logement.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/ref/type_logement_test.rb" afterPath="$PROJECT_DIR$/test/unit/ref/type_logement_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/ref/type_prise_contact.rb" afterPath="$PROJECT_DIR$/app/models/ref/type_prise_contact.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/ref/type_prise_contact_test.rb" afterPath="$PROJECT_DIR$/test/unit/ref/type_prise_contact_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/ref/type_residence.rb" afterPath="$PROJECT_DIR$/app/models/ref/type_residence.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/ref/type_residence_test.rb" afterPath="$PROJECT_DIR$/test/unit/ref/type_residence_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/ref/ville.rb" afterPath="$PROJECT_DIR$/app/models/ref/ville.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/ref/ville_test.rb" afterPath="$PROJECT_DIR$/test/unit/ref/ville_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="assurDeal.iws" />
@@ -81,8 +19,8 @@
     <file path="/conducteur.rb" changelist="dde71ab5-9d30-457b-9f34-78b62f074b39" time="1379968175234" ignored="false" />
     <file path="/automobile.rb" changelist="dde71ab5-9d30-457b-9f34-78b62f074b39" time="1379973091015" ignored="false" />
     <file path="/client.rb" changelist="dde71ab5-9d30-457b-9f34-78b62f074b39" time="1379968372890" ignored="false" />
-    <file path="/Dummy.txt" changelist="dde71ab5-9d30-457b-9f34-78b62f074b39" time="1380395867030" ignored="false" />
-    <file path="/seeds.rb" changelist="dde71ab5-9d30-457b-9f34-78b62f074b39" time="1380399639730" ignored="false" />
+    <file path="/Dummy.txt" changelist="dde71ab5-9d30-457b-9f34-78b62f074b39" time="1380400555312" ignored="false" />
+    <file path="/seeds.rb" changelist="dde71ab5-9d30-457b-9f34-78b62f074b39" time="1380401837406" ignored="false" />
     <file path="/a.dummy" changelist="dde71ab5-9d30-457b-9f34-78b62f074b39" time="1380397160064" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,37 +41,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="seeds.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="11" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0">
+            <state line="8" column="0" selection-start="360" selection-end="360" vertical-scroll-proportion="0.23129252">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="relation_bien.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/ref/relation_bien.rb">
+      <file leaf-file-name="type_prise_contact.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/ref/type_prise_contact.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="type_logement.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/ref/type_logement.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="18" selection-start="6" selection-end="18" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="marque.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/ref/marque.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -184,10 +104,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="24" />
-    <option name="width" value="1231" />
-    <option name="height" value="776" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1288" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -216,6 +136,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -230,7 +151,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assureDeal" />
+              <option name="myItemId" value="assurDeal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -240,79 +161,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assureDeal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="assurDeal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assureDeal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assurDeal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assureDeal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assurDeal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assureDeal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fixtures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assurDeal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assureDeal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -326,25 +175,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assureDeal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="assurDeal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assureDeal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -358,7 +189,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assureDeal" />
+              <option name="myItemId" value="assurDeal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -376,7 +207,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assureDeal" />
+              <option name="myItemId" value="assurDeal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -398,7 +229,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assureDeal" />
+              <option name="myItemId" value="assurDeal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -416,17 +247,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.RubyMineExtensions" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RunManager" selected="Rails.Development: assurDeal">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -693,15 +524,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="24" width="1231" height="776" extended-state="6" />
+    <frame x="-4" y="-4" width="1288" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19970414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19869708" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33276883" sideWeight="0.8002958" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43598056" sideWeight="0.8013029" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -710,6 +540,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -776,60 +607,24 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130922182150_create_ref_sinistralite_conducteurs.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130922182201_create_ref_periode_rappels.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130923203941_add_client_id_to_prod_encheres.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130923205046_add_type_prise_contact_id_to_prod_encheres.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130923215346_add_produit_type_to_prod_encheres.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/fixtures/ref/localisation_etages.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/prod/automobile_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/prod/conducteur_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130922182306_create_ref_pays.rb">
@@ -848,16 +643,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130922195725_create_prod_clients.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="80" selection-end="80" vertical-scroll-proportion="0.04636785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/ref/marque.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="17" selection-start="80" selection-end="80" vertical-scroll-proportion="0.04636785" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/ref/type_residence.rb">
@@ -874,16 +660,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/ref/relation_bien.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="11" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0">
+        <state line="3" column="35" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/ref/relation_bien.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/prod/enchere.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/ref/marque.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/ref/type_prise_contact.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/ref/sinistralite_conducteur.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.615894">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="360" selection-end="360" vertical-scroll-proportion="0.23129252">
           <folding />
         </state>
       </provider>
