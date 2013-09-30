@@ -1,7 +1,7 @@
 class CreateProdAssureurs < ActiveRecord::Migration
   def change
     create_table :assureurs do |t|
-      t.string :raionSociale
+      t.string :raisonSociale
       t.string :numeroIf
       t.string :numeroRc
       t.string :patente
