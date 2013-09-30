@@ -136,6 +136,11 @@ mourafiq= Client.create(nom:"mourafiq",
 
 )
 
+u_ahaddar = User.create(email:"ahaddar.soufiane@gmail.com",
+                             password:"aaaa",
+                            username:"ahaddar.soufiane",
+                            profil:ahaddar
+)
 
 
 

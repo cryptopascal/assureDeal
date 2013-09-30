@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130929191136) do
+ActiveRecord::Schema.define(:version => 20130930191050) do
 
   create_table "assureurs", :force => true do |t|
     t.string   "raisonSociale"
@@ -26,10 +26,7 @@ ActiveRecord::Schema.define(:version => 20130929191136) do
     t.string   "logo"
     t.datetime "created_at",    :null => false
     t.datetime "updated_at",    :null => false
-    t.integer  "ville_id"
   end
-
-  add_index "assureurs", ["ville_id"], :name => "index_assureurs_on_ville_id"
 
   create_table "automobiles", :force => true do |t|
     t.integer  "puissance"
@@ -69,10 +66,7 @@ ActiveRecord::Schema.define(:version => 20130929191136) do
     t.string   "telFix"
     t.datetime "created_at",    :null => false
     t.datetime "updated_at",    :null => false
-    t.integer  "ville_id"
   end
-
-  add_index "clients", ["ville_id"], :name => "index_clients_on_ville_id"
 
   create_table "conducteurs", :force => true do |t|
     t.integer  "sexe"
@@ -186,6 +180,19 @@ ActiveRecord::Schema.define(:version => 20130929191136) do
     t.datetime "created_at",                   :null => false
     t.datetime "updated_at",                   :null => false
   end
+
+  create_table "users", :force => true do |t|
+    t.string   "email"
+    t.string   "username"
+    t.integer  "profil_id"
+    t.string   "profil_type"
+    t.boolean  "active"
+    t.string   "password_digest"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
+
+  add_index "users", ["profil_id"], :name => "index_users_on_profil_id"
 
   create_table "villes", :force => true do |t|
     t.integer  "pays_id"

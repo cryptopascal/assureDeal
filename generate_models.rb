@@ -28,4 +28,6 @@ belongs_to :automobile, :foreign_key => :automobile_id
  
  rails generate migration AddProduitIdToProdEncheres produit_id:integer:index
  rails generate migration AddProduitTypeToProdEncheres produit_type:string
+
+rails g model User email:string username:string profil_id:integer profil_type:string active:boolean  password_digest:string
  
